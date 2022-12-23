@@ -1,0 +1,98 @@
+:root{
+    --color1: #f7f9fa; 
+    --color2: #B4846C; 
+    --color3: #E5B299 ; 
+    --color4: #FCDEC0 ; 
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+
+    --negro: #000000;
+    --blanco: #ffffff;   
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+body{
+    font-family: var(--fuenteParrafos); 
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/* globales */
+.contenedor{
+    width: min(90%, 120rem);
+    margin: 0 auto;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+h1{
+}
+
+h2{
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 3.2rem;
+}
+
+h4{
+    font-size: 2.8rem;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 3rem;
+
+}
+
+/* utilidades */
+.no-margin{
+    margin: 0;
+}
+
+.no-padding{
+    padding: 0;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+
+.logo{
+    color: var(--blanco);
+}
+
+.logo__nombre{
+    font-weight: 400;
+}
+
+.logo__bold{
+    font-weight: 700;
+}
+
+.basic-1{
+    text-align: center;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
